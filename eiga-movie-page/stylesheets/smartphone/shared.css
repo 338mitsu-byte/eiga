@@ -4890,28 +4890,13 @@ promo-banner
 ++++++++++++++++++++++++++++++ */
 
 .promo-banner {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 10px 0;
+  width: calc(100% - 12px);
+  margin: 10px auto;
   background-color: transparent;
 }
 
-.promo-banner--h50 {
-  height: 50px;
-}
-
-.promo-banner--h70 {
-  height: 70px;
-}
-
-.promo-banner--h100 {
-  height: 100px;
-}
-
 .promo-banner img {
-  width: 350px;
+  width: 100%;
   object-fit: contain;
 }
 
